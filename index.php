@@ -14,3 +14,10 @@
  *    Attention, trouvez une solution pour que le fichier contienne du JSON valide !
  * 6. Affichez sur la page index les fichiers ayant déjà été uploadés.
  */
+
+?>
+<form action ="fichier.php" method="post" enctype="multipart/form-data">
+    <label for="id-fichier">Choisissez un fichier texte ou image (.txt, png ou jpg)</label>
+    <input type="file" name="fichierUtilisateur" id="id-fichier"><br>
+    <input type="submit" value="Envoyer">
+</form>
